@@ -1,0 +1,42 @@
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: rgba(33, 37, 41, 0.95);
+}
+
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2b5876, #4e4376);
+  padding-top: 80px;
+}
+
+section h2 {
+  font-weight: 700;
+  border-bottom: 3px solid #4e4376;
+  display: inline-block;
+  padding-bottom: 0.25rem;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.invalid-feedback {
+  display: none;
+}
+
+.form-control.is-invalid ~ .invalid-feedback,
+.form-control.is-invalid + .invalid-feedback {
+  display: block;
+}
+
+footer {
+  margin-top: 2rem;
+}
