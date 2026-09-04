@@ -1,0 +1,5 @@
+The quick brown fox jumps over the lazy dog. Every programmer knows
+that testing is important, but sometimes mistaks happen during
+developement. A good speller can help you find these problms before
+they cause embarassment. Remember to always proofread your writing
+carefully and dilligently, especially before you ship it to a customer.
